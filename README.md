@@ -7,6 +7,11 @@
 Thank you for visiting this repository. The full source code, circuit diagrams, and Unity simulation files for the **"Wireless Environment Monitoring System with 3D Simulation"** will be uploaded here within the next **7 to 15 days**.
 
 ---
+<p align="center">
+  <img src="images/gpg_img1.png" alt="System Diagram" width="600">
+</p>
+
+
 
 ## 📘 Project Description
 
@@ -15,8 +20,8 @@ This project is a real-time wireless environmental monitoring system built using
 It consists of:
 - 🟢 **Green Node**: Monitors air quality (MQ2, MQ135, Dust, DHT11, LDR)
 - 🔵 **Aqua Node**: Monitors water quality (TDS, Water Level, Temperature Probe)
-- 📶 **Relay **: Forwards data from both nodes using ESP-NOW protocol
-- 🖥️ **Receiver **: Sends received data to Unity for simulation via Serial
+- 📶 **Relay**: Forwards data from both nodes using ESP-NOW protocol
+- 🖥️ **Receiver**: Sends received data to Unity for simulation via Serial
 
 Unity responds with:
 - Smoke, colored particles, water tank fill level, day/night effects  
