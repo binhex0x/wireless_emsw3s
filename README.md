@@ -16,7 +16,7 @@ Thank you for visiting this repository. The full source code, circuit diagrams, 
 </p>
 
 <p align="center">
-  <img src="images/project_image.png" alt="System Diagram" width="600">
+  <img src="images/project_image0.png" alt="System Diagram" width="600">
 </p>
 
 
