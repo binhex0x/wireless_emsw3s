@@ -2,10 +2,11 @@
 <h1 align="center">Govt. Polytechnic Ghaziabad, UP</h1>
 
 <h3 align="center" style="color:#333;">
-  <span style="color:red;">D</span>iploma in 
-  <span style="color:red;">E</span>lectronics 
-  <span style="color:red;">E</span>ngineering
+  <span style="color:#e53935;">D</span>iploma in 
+  <span style="color:#e53935;">E</span>lectronics 
+  <span style="color:#e53935;">E</span>ngineering
 </h3>
+
 
 <h2 align="center">Session : 2024 - 25</h2>
 
