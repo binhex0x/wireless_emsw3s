@@ -24,7 +24,6 @@
   ----------------------------------------------
 */
 
-
 #include <WiFi.h>
 #include <esp_now.h>
 #include <TFT_eSPI.h>
@@ -33,8 +32,7 @@
 TFT_eSPI tft = TFT_eSPI();
 
 // MAC address of Receiver ESP32  
-//uint8_t receiverMAC[] = {0x24, 0x6F, 0x28, 0x99, 0x9D, 0x1C}; //ttgo
-uint8_t receiverMAC[] = {0x38, 0x18, 0x2b, 0x8a, 0xf7, 0xa0};// 30pin 
+uint8_t receiverMAC[] = {0x38, 0x18, 0x2b, 0x8a, 0xf7, 0xa0}; 
 // ---------- Packet from Nodes ----------
 typedef struct {
   char  nodeType[8];   // "Green" / "Aqua"
@@ -68,6 +66,53 @@ NodeStatus* getNodeSlot(const char* type) {
   if (strcmp(type, "Aqua")  == 0) return &aqua;
   return nullptr;
 }
+void showStudentNames(
+        const char* n1 = "* Yogesh Kumar",
+        const char* n2 = "* Abhishek",
+        const char* n3 = "Vishnu Kumar",
+        const char* n4 = "Dhananjay")
+{
+  // ── Display + font setup ───────────────────────
+  tft.fillScreen(TFT_BLACK);               // black background
+  tft.setTextFont(2);                      // font 2 ≈ 16 px high
+  tft.setTextColor(TFT_RED, TFT_BLACK);    // red text, black fill
+  tft.setTextDatum(MC_DATUM);              // MC = middle-centre anchor
+
+  // ── Layout constants ───────────────────────────
+  const int padding   = 4;                 // px around each name
+  const int gap       = 8;                 // vertical gap between boxes
+  const int scrW      = tft.width();       // screen width
+  const int scrH      = tft.height();      // screen height
+  const int fontH     = tft.fontHeight(2); // text (baseline-to-baseline)
+
+  // Array of pointers makes looping easy
+  const char* names[4] = { n1, n2, n3, n4 };
+
+  // Optional: vertically centre the whole block
+  const int totalBlockH = 4 * (fontH + 2*padding) + 3*gap;
+  int yTop = (scrH - totalBlockH) / 2;     // start Y so block is centred
+
+  // ── Draw each name ─────────────────────────────
+  for (int i = 0; i < 4; ++i) {
+    const char* name = names[i];
+
+    // Text and box dimensions
+    int textW   = tft.textWidth(name, 2);
+    int rectW   = textW + 2 * padding;
+    int rectH   = fontH + 2 * padding;
+    int rectX   = (scrW - rectW) / 2;          // centred horizontally
+    int rectY   = yTop + i * (rectH + gap);
+
+    // Draw white border (1-pixel line)
+    tft.drawRect(rectX, rectY, rectW, rectH, TFT_WHITE);
+
+    // Draw the text – anchored middle-centre inside the box
+    int textX = scrW / 2;                      // centre of screen
+    int textY = rectY + rectH / 2;             // centre of box
+    tft.drawString(name, textX, textY);
+  }
+}
+
 
 // ---------- ESP‑NOW callbacks ----------
 void onReceive(const esp_now_recv_info_t*,
@@ -151,6 +196,11 @@ void setup()
   tft.init();
   tft.setRotation(-1);      // your preferred 180° orientation
   tft.fillScreen(TFT_BLACK);
+  showStudentNames();
+  delay(4000);
+    tft.setTextFont(1);                      // font 2 ≈ 16 px high
+
+  delay(2000);
 
   if (esp_now_init() != ESP_OK) {
     Serial.println("ESP‑NOW init failed");
