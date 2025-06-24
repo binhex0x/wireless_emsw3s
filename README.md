@@ -1,5 +1,8 @@
 
 # Govt. Polytechnic Ghaziabad, UP
+
+<h3 align="center"> Diploma in Electronics Engineering </h3>
+# Session : 2024 -25
 # Wireless Environment Monitoring System with 3D Simulation
 
 > ⚠️ ** 3D Simulation Software coming soon!**
@@ -7,14 +10,17 @@
 Thank you for visiting this repository. The full source code, circuit diagrams, and Unity simulation files for the **"Wireless Environment Monitoring System with 3D Simulation"** will be uploaded here within the next **7 to 15 days**.
 
 ---
+<h3 align="center"> #3D Design </h3>
 <p align="center">
   <img src="images/gpg_img1.png" alt="System Diagram" width="600">
 </p>
 
+<h3 align="center"> Software </h3>
 <p align="center">
   <img src="images/unity_ss1.png" alt="System Diagram" width="600">
 </p>
 
+<h3 align="center"> Hardware </h3>
 <p align="center">
   <img src="images/project_image0.png" alt="System Diagram" width="600">
 </p>
