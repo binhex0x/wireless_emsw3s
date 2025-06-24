@@ -1,9 +1,15 @@
 
-# Govt. Polytechnic Ghaziabad, UP
+<h1 align="center">Govt. Polytechnic Ghaziabad, UP</h1>
 
-<h3 align="center"> Diploma in Electronics Engineering </h3>
-# Session : 2024 -25
-# Wireless Environment Monitoring System with 3D Simulation
+<h3 align="center" style="color:#333;">
+  <span style="color:red;">D</span>iploma in 
+  <span style="color:red;">E</span>lectronics 
+  <span style="color:red;">E</span>ngineering
+</h3>
+
+<h2 align="center">Session : 2024 - 25</h2>
+
+<h2 align="center">Wireless Environment Monitoring System with 3D Simulation</h2>
 
 > ⚠️ ** 3D Simulation Software coming soon!**
 
