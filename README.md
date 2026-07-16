@@ -61,7 +61,7 @@ Unity responds with:
 
 ## 👥 Team Members
 
-- **Yogesh Kumar**  
+- **Yogesh Kumar 💎**  
 - **Abhishek**  
 - **Vishnu Kumar**  
 - **Dhananjay**
