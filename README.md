@@ -57,14 +57,13 @@ Unity responds with:
 
 ✅ Hardware working  
 ✅ Data sending and visualization tested  
-⏳ Project files being organized  
-📤 Expected upload: **within 7–15 days**
+✅ Software file uploaded
 
 ---
 
 ## 👥 Team Members
 
-- **Yogesh Kumar 💎**  
+- **Yogesh Kumar 💎 {🥈 Silver Medalist : Awarded 2nd Rank in Electronics Engineering }**  
 - **Abhishek**  
 - **Vishnu Kumar**  
 - **Dhananjay**
