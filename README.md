@@ -60,6 +60,13 @@ Unity responds with:
 ✅ Software file uploaded
 
 ---
+## 🏫 Submitted As
+
+> **Major Project (Diploma Final Year 6th semester)**  
+> 🏛️ *Department of Electronics Engineering*  
+> 📍 *Government Polytechnic Ghaziabad UP*  
+> 🎓 *Academic Year: 2024–2025*
+---
 
 ## 👥 Team Members
 
