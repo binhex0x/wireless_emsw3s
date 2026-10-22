@@ -68,15 +68,22 @@ Unity responds with:
 > 🎓 *Academic Year: 2024–2025*
 ---
 
-## 👥 Team Members
+## 👨‍💻 Project Developer
 
-- **Yogesh Kumar 💎 {🥈 Silver Medalist : Awarded 2nd Rank in Electronics Engineering }**  
-- **Abhishek**  
-- **Vishnu Kumar**  
+**Yogesh Kumar**  💎 {🥈 Silver Medalist : Awarded 2nd Rank in Electronics Engineering }
+> Concept, Hardware, Software, Programming & System Integration
+
+---
+### 👥 Other Team Members
+
+- **Abhishek**
+- **Vishnu Kumar**
 - **Dhananjay**
+> Project Support
+
+---
 
 > _Feel free to contact us for any queries, collaboration, or feedback._
 
 ---
 
-⭐ Star the repo to get notified when the files are live!
