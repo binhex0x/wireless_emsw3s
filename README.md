@@ -64,7 +64,7 @@ Unity responds with:
 
 > **Major Project (Diploma Final Year 6th semester)**  
 > 🏛️ *Department of Electronics Engineering*  
-> 📍 *Government Polytechnic Ghaziabad UP*  
+> 📍 *Government Polytechnic Ghaziabad, UP*  
 > 🎓 *Academic Year: 2024–2025*
 ---
 
@@ -74,7 +74,7 @@ Unity responds with:
 > Concept, Hardware, Software, Programming & System Integration
 
 ---
-### 👥 Other Team Members
+## 👥 Other Team Members
 
 - **Abhishek**
 - **Vishnu Kumar**
